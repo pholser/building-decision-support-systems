@@ -1,0 +1,14 @@
+locations = [rome, paris, prague, munich, vienna, end];
+travel_cost =
+  [|0, 1106, 923, 699, 764, 0
+   |1106, 0, 886, 685, 1024, 0
+   |923, 866, 0, 300, 251, 0
+   |699, 685, 300, 0, 355, 0
+   |764, 1024, 251, 355, 0, 0
+   |0, 0, 0, 0, 0, 0
+   |];
+tour_ct = 7;
+tour_start = [20, 25, 30, 40, 43, 50, 100];
+tour_dur = [15, 15, 15, 12, 0, 8, 0];
+tour_start_loc = [paris, paris, paris, paris, munich, munich];
+tour_eend_loc = [rome, rome, prague, munich, vienna, munich];
